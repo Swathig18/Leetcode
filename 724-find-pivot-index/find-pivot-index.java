@@ -4,9 +4,9 @@ class Solution {
         for(int i=0;i<nums.length;i++){
          totalsum+=nums[i];
         }
-        int leftsum=0;int rightsum=0;
+        int leftsum=0;
         for(int i=0;i<nums.length;i++){
-            rightsum=totalsum-nums[i]-leftsum;
+            int rightsum=totalsum-nums[i]-leftsum;
             if(rightsum==leftsum){
                 return i;
             }
