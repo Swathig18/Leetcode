@@ -10,9 +10,7 @@ class ParkingSystem {
           slot[carType]--;
           return true;
           }
-          else{
-          return  false;
-       }    
+          return  false;   
     }
 }
 
