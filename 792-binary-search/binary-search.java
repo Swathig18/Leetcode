@@ -6,9 +6,9 @@ class Solution {
         if(nums[mid]==target){
             return mid;
         }else if(nums[mid]<target){
-              start++;
+              start=mid+1;
         }else{
-        end--;}
+        end=mid-1;}
         }
         return -1;
     }
