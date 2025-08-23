@@ -9,7 +9,7 @@ class Solution {
         y--;
        else if(c=='R')
         x++;
-        else if(c=='L')
+        else ///if(c=='L')
         x--;
        } 
        return x==0&&y==0;
