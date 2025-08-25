@@ -5,10 +5,11 @@ class Solution {
             if(prices[i]-min>maxProfit){
                 maxProfit=prices[i]-min;
             }
-                if(prices[i]<min){
-                    min=prices[i];
-                }
+            if(prices[i]<min){
+                min=prices[i];
             }
+        }
         return maxProfit;
     }
 }
+        
