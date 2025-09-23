@@ -9,7 +9,7 @@ class Solution {
             return false;
          }
        hash.put(c,hash.get(c)-1);
-           }
+        }
         return true;
-}
+   }
 }
