@@ -7,9 +7,9 @@ class Solution {
        for(char c:ransomNote.toCharArray()){
          if(!hash.containsKey(c)||hash.get(c)==0){
             return false;
-        }
+         }
        hash.put(c,hash.get(c)-1);
-    }
+        }
         return true;
    }
 }
