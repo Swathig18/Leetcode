@@ -13,7 +13,8 @@ class Solution {
                     return false;
                 }
             }else{
-                map1.put(c1,c2);}
+                map1.put(c1,c2);
+            }
             if(map2.containsKey(c2)){
                 if(map2.get(c2)!=c1){
                     return false;
