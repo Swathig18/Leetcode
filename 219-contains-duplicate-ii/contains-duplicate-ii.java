@@ -6,8 +6,7 @@ class Solution {
             int prevIndex=map.get(nums[i]);
             if(i-prevIndex <= k){
                 return true;
-            }
-        }
+            }}
         map.put(nums[i],i);
        } 
        return false;
