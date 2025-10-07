@@ -1,7 +1,7 @@
 class Solution {
     public int majorityElement(int[] nums) {
     if(nums.length==0)
-    return 0;
+    return -1;
        HashMap<Integer,Integer>map=new HashMap<>();
        for(int n:nums){
         map.put(n,map.getOrDefault(n,0)+1);
